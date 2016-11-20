@@ -2788,6 +2788,11 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!82 &1778253010 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 82000010069184718, guid: f9822e67385a4402d9bf680e50d19d58,
+    type: 2}
+  m_PrefabInternal: {fileID: 1781955274}
 --- !u!1001 &1781466681
 Prefab:
   m_ObjectHideFlags: 0
@@ -2849,6 +2854,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114000011778842636, guid: f9822e67385a4402d9bf680e50d19d58,
+        type: 2}
+      propertyPath: openCloseSoundFiles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010992985868, guid: f9822e67385a4402d9bf680e50d19d58, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0.36020684
@@ -2891,6 +2901,21 @@ Prefab:
       propertyPath: locked
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114000011778842636, guid: f9822e67385a4402d9bf680e50d19d58,
+        type: 2}
+      propertyPath: openCloseSoundFiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: e5a423fc890c5445fb9c3b126422891b, type: 3}
+    - target: {fileID: 114000011778842636, guid: f9822e67385a4402d9bf680e50d19d58,
+        type: 2}
+      propertyPath: openCloseSoundFiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: b6a0517e9a9d14b7b8fd6be65f68f1a5, type: 3}
+    - target: {fileID: 114000011778842636, guid: f9822e67385a4402d9bf680e50d19d58,
+        type: 2}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1778253010}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f9822e67385a4402d9bf680e50d19d58, type: 2}
   m_IsPrefabParent: 0
