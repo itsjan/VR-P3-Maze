@@ -292,6 +292,12 @@ Prefab:
       propertyPath: m_Name
       value: Coin (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012871899810, guid: 02dc7d66da318204f8bb21b011ecd0b9,
+        type: 2}
+      propertyPath: coinPoofPrefab
+      value: 
+      objectReference: {fileID: 1000012050171414, guid: 3e4583964ebc04bcf88d81858f63796e,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 02dc7d66da318204f8bb21b011ecd0b9, type: 2}
   m_IsPrefabParent: 0
@@ -1070,7 +1076,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010618936100, guid: 02dc7d66da318204f8bb21b011ecd0b9, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 6.2
+      value: -5.3
       objectReference: {fileID: 0}
     - target: {fileID: 4000010618936100, guid: 02dc7d66da318204f8bb21b011ecd0b9, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1096,6 +1102,12 @@ Prefab:
       propertyPath: m_Name
       value: Coin (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012871899810, guid: 02dc7d66da318204f8bb21b011ecd0b9,
+        type: 2}
+      propertyPath: coinPoofPrefab
+      value: 
+      objectReference: {fileID: 1000012050171414, guid: 3e4583964ebc04bcf88d81858f63796e,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 02dc7d66da318204f8bb21b011ecd0b9, type: 2}
   m_IsPrefabParent: 0
@@ -1262,7 +1274,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!4 &792989605 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000010383912652, guid: 749ea01a62a9947538f52a6ddfad54d0,
@@ -1408,6 +1420,12 @@ Prefab:
       propertyPath: m_Name
       value: Coin (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012871899810, guid: 02dc7d66da318204f8bb21b011ecd0b9,
+        type: 2}
+      propertyPath: coinPoofPrefab
+      value: 
+      objectReference: {fileID: 1000012050171414, guid: 3e4583964ebc04bcf88d81858f63796e,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 02dc7d66da318204f8bb21b011ecd0b9, type: 2}
   m_IsPrefabParent: 0
@@ -1456,7 +1474,7 @@ Prefab:
     - target: {fileID: 224000013198373878, guid: f70ec84cc3ad04416a54397138e8f071,
         type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 224000013198373878, guid: f70ec84cc3ad04416a54397138e8f071,
         type: 2}
@@ -1674,6 +1692,12 @@ Prefab:
       propertyPath: m_Name
       value: Coin (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012871899810, guid: 02dc7d66da318204f8bb21b011ecd0b9,
+        type: 2}
+      propertyPath: coinPoofPrefab
+      value: 
+      objectReference: {fileID: 1000012050171414, guid: 3e4583964ebc04bcf88d81858f63796e,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 02dc7d66da318204f8bb21b011ecd0b9, type: 2}
   m_IsPrefabParent: 0
@@ -2100,7 +2124,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000013254879812, guid: 111654ac6051e4d0aa5c3b534c180677, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 15.794129
+      value: -8.5
       objectReference: {fileID: 0}
     - target: {fileID: 4000013254879812, guid: 111654ac6051e4d0aa5c3b534c180677, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2108,7 +2132,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013254879812, guid: 111654ac6051e4d0aa5c3b534c180677, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.066036224
+      value: -22.5
       objectReference: {fileID: 0}
     - target: {fileID: 4000013254879812, guid: 111654ac6051e4d0aa5c3b534c180677, type: 2}
       propertyPath: m_LocalRotation.x
@@ -3225,6 +3249,12 @@ Prefab:
       propertyPath: m_Name
       value: Coin (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012871899810, guid: 02dc7d66da318204f8bb21b011ecd0b9,
+        type: 2}
+      propertyPath: coinPoofPrefab
+      value: 
+      objectReference: {fileID: 1000012050171414, guid: 3e4583964ebc04bcf88d81858f63796e,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 02dc7d66da318204f8bb21b011ecd0b9, type: 2}
   m_IsPrefabParent: 0
