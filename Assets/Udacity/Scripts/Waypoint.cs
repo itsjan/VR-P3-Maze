@@ -46,6 +46,8 @@ public class Waypoint : MonoBehaviour
 
 	[Header("Sounds")]
 	public AudioClip clip_click					= null;				
+	public bool playOnFirstVisitOnly			= true;
+	private bool visited;
 
 	[Header("Hide Distance")]
 	public float threshold						= 0.125f;
@@ -127,8 +129,11 @@ public class Waypoint : MonoBehaviour
 	public void Click()
 	{
 		_state = _state == State.Focused ? State.Clicked : _state;
-		
-		_audio_source.Play();
+
+		if (!visited) {
+			_audio_source.Play ();
+			visited = true;
+		}
 
 		Camera.main.transform.position 	= gameObject.transform.position;
 	}
