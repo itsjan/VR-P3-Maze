@@ -20,7 +20,7 @@ public class Waypoint : MonoBehaviour
 	[SerializeField]
 	private State  		_state					= State.Idle;
 	private Color		_color_origional		= new Color(0.0f, 1.0f, 0.0f, 0.5f);
-	private Color		_color					= Color.white;
+	private Color		_color					= Color.yellow;
 	private float 		_scale					= 1.0f;
 	private float 		_animated_lerp			= 1.0f;
 	private AudioSource _audio_source			= null;
