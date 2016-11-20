@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Waypoint : MonoBehaviour
 {
+	
+
 	private enum State
 	{
 		Idle,
@@ -52,7 +54,9 @@ public class Waypoint : MonoBehaviour
 	[Header("Hide Distance")]
 	public float threshold						= 0.125f;
 
-
+	[Header("Activation")]
+	public GameObject[] allowGameObjects;
+	public GameObject[] disallowGameObjects;
 
 	void Awake()
 	{		
@@ -117,12 +121,14 @@ public class Waypoint : MonoBehaviour
 	public void Enter()
 	{
 		_state = _state == State.Idle ? State.Focused : _state;
+
 	}
 
 
 	public void Exit()
 	{
 		_state = State.Idle;
+
 	}
 
 
@@ -133,6 +139,14 @@ public class Waypoint : MonoBehaviour
 		if (!visited) {
 			_audio_source.Play ();
 			visited = true;
+		}
+
+		foreach (GameObject o in allowGameObjects) {
+			o.SendMessage ("Enable");
+		}
+
+		foreach (GameObject o in disallowGameObjects) {
+			o.SendMessage ("Disable");
 		}
 
 		Camera.main.transform.position 	= gameObject.transform.position;
